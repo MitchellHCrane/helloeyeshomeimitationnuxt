@@ -21,7 +21,9 @@
         class="relative max-w-[375px] tablet:max-w-[500px] laptop:max-w-[550px] desktop:max-w-[775px]"
       >
         <h1 class="text-white">
-          <div class="text-[48px] uppercase font-bold leading-[52px]">
+          <div
+            class="text-[48px] uppercase font-bold leading-[52px] laptop:text-[80px] laptop:leading-[80px]"
+          >
             Vision Care From Home.
           </div>
           <div

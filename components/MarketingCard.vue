@@ -18,7 +18,7 @@
       </a>
     </div>
     <div
-      class="px-5 tablet:pb-10 laptop:pb-0 desktop:px-20 text-center mt-5 tablet:mt-0 laptop:mt-7.5 order-first basis-1/2 tablet:bg-white laptop:bg-black tablet:flex tablet:items-center laptop:block"
+      class="px-5 tablet:pb-10 laptop:pb-0 desktop:px-20 text-center mt-5 tablet:mt-0 laptop:mt-[1.875rem] order-first basis-1/2 tablet:bg-white laptop:bg-black tablet:flex tablet:items-center laptop:block"
     >
       <div>
         <a :href="cardLink" class="">
@@ -26,7 +26,9 @@
             class="absolute tablet:static laptop:absolute top-0 left-0 w-full py-10 tablet:pt-10 tablet:pb-1.5 laptop:py-10 desktop:py-15 text-center"
           >
             <div class="displayFour">{{ titleLine1 }}</div>
-            <div class="displaySix">{{ titleLine2 }}</div>
+            <div class="displaySix laptop:text-[32px] leading-[36px]">
+              {{ titleLine2 }}
+            </div>
           </div>
         </a>
         <div class="text-white tablet:text-black laptop:text-white">
