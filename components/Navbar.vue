@@ -15,7 +15,7 @@
         <img
           class="h-[26px] tablet:h-[36px] laptop:mx-[60px] hover:cursor-pointer w-fit mr-[60px]"
           alt="Your Company Here Logo"
-          src="../assets//images//helloEyes.png"
+          src="../assets/images/helloEyes.png"
         />
 
         <!-- Menu Items -->
